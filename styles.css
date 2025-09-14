@@ -527,8 +527,22 @@ footer {
 
 
 input{
-  background-color: gray;
+  background-color: rgb(64, 64, 64);
   color: white;
   padding: 10px 15px;
   border-radius: 6px;
+  border: none;
+}
+
+input::placeholder{
+  color: white;
+  opacity: 0.8;
+}
+
+.input-wrapper{
+  position: relative;
+}
+
+.input-wrapper img{
+  position: absolute;
 }
