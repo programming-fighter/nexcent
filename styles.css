@@ -308,6 +308,7 @@ body {
 .review-container{
   max-width: 1280px;
   margin: auto;
+  padding-bottom: 30px;
 }
 
 .review-container{
@@ -334,7 +335,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid red;
 }
 
 .meet-customer-text{
@@ -344,7 +344,6 @@ body {
 .meet-text-icon{
   display: flex;
   align-items: center;
-  border: 1px solid red;
 }
 
 .meet-text-icon img{
@@ -361,7 +360,6 @@ body {
 .review-brand-logos{
   display: flex;
   gap: 30px;
-  border: 1px solid red;
   margin-top: 20px;
 }
 
@@ -375,4 +373,27 @@ body {
 .review-right-side p{
   color: var(--text-color);
   font-size: 20px;
+}
+
+/* blog section */
+
+#blog-section {
+  max-width: 1280px;
+  margin: auto;
+  padding: 60px 0px;
+}
+
+.blog-heading{
+  text-align: center;
+}
+
+.blog-heading h1{
+  color: var(--heading-color);
+}
+
+.blog-heading p{
+  color: var(--text-color);
+  padding-top: 20px;
+  width: 60%;
+  margin: auto;
 }
