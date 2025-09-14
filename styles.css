@@ -499,12 +499,14 @@ footer {
 
 .copyright-para {
   color: var(--secondary-color);
+  font-size: 20px;
 }
 
 .footer-info {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  width: 50%;
 }
 
 .footer-company, .footer-support {
@@ -545,4 +547,9 @@ input::placeholder{
 
 .input-wrapper img{
   position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
 }
