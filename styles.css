@@ -297,3 +297,82 @@ body {
   color: var(--heading-color);
   font-size: 28px;
 }
+
+
+/* Review Section */
+
+#review-section{
+  background-color: var(--alternative-color);
+}
+
+.review-container{
+  max-width: 1280px;
+  margin: auto;
+}
+
+.review-container{
+  display: flex;
+  align-items: stretch;
+  gap: 160px;
+}
+
+.review-left-side{
+  width: 30%;
+}
+
+.review-right-side{
+  width: 70%;
+}
+
+#review-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.brand-logo-with-text{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+.meet-customer-text{
+  color: var(--primary-color);
+}
+
+.meet-text-icon{
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.meet-text-icon img{
+  width: 40px;
+  height: 40px;
+}
+
+.review-brand-logo{
+  width: 55px;
+  height: 55px;
+
+}
+
+.review-brand-logos{
+  display: flex;
+  gap: 30px;
+  border: 1px solid red;
+  margin-top: 20px;
+}
+
+.reviewer-name{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+  font-size: 24px;
+}
+
+.review-right-side p{
+  color: var(--text-color);
+  font-size: 20px;
+}
