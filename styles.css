@@ -8,6 +8,7 @@
   --heading-color: #4d4d4d; /*only for heading */
   --text-color: #717171; /* Gray */
   --alternative-color: #f5f7fa; /*alternative bg color */
+  --dark-gray-color: #0b0d17; /*dark gray color */
 }
 
 * {
@@ -298,79 +299,77 @@ body {
   font-size: 28px;
 }
 
-
 /* Review Section */
 
-#review-section{
+#review-section {
   background-color: var(--alternative-color);
 }
 
-.review-container{
+.review-container {
   max-width: 1280px;
   margin: auto;
   padding-bottom: 30px;
 }
 
-.review-container{
+.review-container {
   display: flex;
   align-items: stretch;
   gap: 160px;
 }
 
-.review-left-side{
+.review-left-side {
   width: 30%;
 }
 
-.review-right-side{
+.review-right-side {
   width: 70%;
 }
 
-#review-img{
+#review-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.brand-logo-with-text{
+.brand-logo-with-text {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.meet-customer-text{
+.meet-customer-text {
   color: var(--primary-color);
 }
 
-.meet-text-icon{
+.meet-text-icon {
   display: flex;
   align-items: center;
 }
 
-.meet-text-icon img{
+.meet-text-icon img {
   width: 40px;
   height: 40px;
 }
 
-.review-brand-logo{
+.review-brand-logo {
   width: 55px;
   height: 55px;
-
 }
 
-.review-brand-logos{
+.review-brand-logos {
   display: flex;
   gap: 30px;
   margin-top: 20px;
 }
 
-.reviewer-name{
+.reviewer-name {
   margin-top: 20px;
   margin-bottom: 20px;
   color: var(--primary-color);
   font-size: 24px;
 }
 
-.review-right-side p{
+.review-right-side p {
   color: var(--text-color);
   font-size: 20px;
 }
@@ -383,56 +382,153 @@ body {
   padding: 60px 0px;
 }
 
-.blog-card-container{
+.blog-card-container {
   display: flex;
   gap: 30px;
+  margin-top: 20px;
+  padding-bottom: 60px;
 }
 
-.blog-heading{
+.blog-heading {
   text-align: center;
 }
 
-.blog-heading h1{
+.blog-heading h1 {
   color: var(--heading-color);
 }
 
-.blog-heading p{
+.blog-heading p {
   color: var(--text-color);
   padding-top: 20px;
   width: 60%;
   margin: auto;
+  font-size: 20px;
 }
 
-.floating-card{
+.floating-card {
   background-color: var(--alternative-color);
-  padding: 20px 10px;
+  padding: 30px 10px;
   border-radius: 6px;
+  width: 90%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 70%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.floating-card h4{
+.floating-card h4 {
   text-align: center;
   font-size: 22px;
-  color: var(--heading-color);
+  color: var(--text-color);
 }
 
-.readme-div{
+.readme-div {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.readme-div a{
+.readme-div a {
   color: var(--primary-color);
   text-decoration: none;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
-
-.readme-div img{
+.readme-div img {
   width: 40px;
   height: 40px;
 }
 
-.blog-banner{
+.blog-banner {
   width: 100%;
+}
+
+.blog-card {
+  position: relative;
+}
+
+/* Footer Section */
+
+footer {
+  background-color: var(--dark-gray-color);
+}
+
+#footer-container {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 240px;
+  padding: 60px 0px;
+}
+
+.footer-logo-text {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-logo-text img {
+  width: 80px;
+  height: 60px;
+}
+
+.footer-logo-text h1 {
+  color: white;
+  letter-spacing: 2px;
+}
+
+.footer-links {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.copyright-para {
+  color: var(--secondary-color);
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer-company, .footer-support {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-company h3, .footer-support h3, .footer-newsletter h3 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.footer-company a, .footer-support a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+
+
+input{
+  background-color: gray;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 6px;
 }
