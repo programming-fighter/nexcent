@@ -92,13 +92,84 @@
     gap: 30px;
   }
 
-  .stats-heading-div{
+  .stats-heading-div {
     width: 80%;
-    border: 1px solid red;
   }
 
-  .stats-div-container{
-    border: 1px solid red;
+  .stats-div-container {
+    margin-top: 10px;
+  }
+
+  /* review Section */
+
+  .review-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .review-left-side {
+    width: 100%;
+  }
+
+  .review-right-side {
+    width: 100%;
+  }
+
+  .brand-logo-with-text {
+    flex-direction: column;
+  }
+
+  .review-brand-logos {
+    flex-direction: column;
+  }
+
+  /* blog section */
+  .blog-card-container {
+    flex-direction: column;
+  }
+
+  .blog-card {
+    margin-bottom: 80px;
+  }
+
+  /* footer section */
+  #footer-container {
+    flex-direction: column;
+    gap: 0px;
+    text-align: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+  }
+
+  .footer-logo-text {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-info {
+    width: 100%;
+  }
+
+  .social-icons {
+    display: flex;
+    margin: auto;
+    gap: 20px;
+  }
+
+  .footer-company h3,
+  .footer-support h3,
+  .footer-newsletter h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .input-wrapper img {
+    right: 120px;
+    
   }
 }
 
@@ -171,5 +242,64 @@
 
   .pixelgrade-right-side h1 {
     margin-top: 20px;
+  }
+
+  /* review Section */
+
+  .review-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .review-left-side {
+    width: 100%;
+  }
+
+  .review-right-side {
+    width: 100%;
+  }
+
+  .brand-logo-with-text {
+    flex-direction: column;
+  }
+
+  /* footer section */
+  #footer-container {
+    flex-direction: column;
+    gap: 0px;
+    text-align: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+  }
+
+  .footer-logo-text {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-info {
+    width: 100%;
+  }
+
+  .social-icons {
+    display: flex;
+    margin: auto;
+    gap: 20px;
+  }
+
+  .footer-company h3,
+  .footer-support h3,
+  .footer-newsletter h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .input-wrapper img {
+    right: 120px;
+    
   }
 }
