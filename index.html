@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nexcent</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./responsive.css" />
   </head>
   <body>
     <nav>
@@ -41,7 +42,7 @@
       <section id="hero-section">
         <div class="hero-container">
           <!-- Hero Text -->
-          <div>
+          <div class="hero-text-info">
             <h1 class="hero-title">
               Lessons and insights <br />
               <span class="hero-span">from 8 years</span>
@@ -156,7 +157,9 @@
               Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec
               elementum pulvinar odio.
             </p>
-            <button class="common-btn">Learn More</button>
+            <div class="learnmore-btn-div">
+              <button class="common-btn">Learn More</button>
+            </div>
           </div>
         </div>
       </section>
@@ -165,7 +168,7 @@
       <section id="stats-section">
         <div class="stats-container">
           <!-- left div -->
-          <div>
+          <div class="stats-heading-div">
             <h1 class="stats-title">
               Helping a local <br />
               <span class="stats-span">business reinvent itself</span>
@@ -237,7 +240,7 @@
       </section>
 
       <!-- Review Section -->
-      <section id="review-section">
+      <section class="hidden" id="review-section">
         <div class="review-container">
           <!-- left div -->
           <div class="review-left-side">
@@ -313,7 +316,7 @@
       </section>
 
       <!-- Blog Section -->
-      <section id="blog-section">
+      <section class="hidden" id="blog-section">
         <div class="blog-container">
           <!-- heading part -->
           <div class="blog-heading">
@@ -393,7 +396,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="hidden">
       <section id="footer-container">
         <!-- footer info -->
         <div class="footer-info">
@@ -406,9 +409,21 @@
             <p class="copyright-para">All rights reserved</p>
           </div>
           <div class="social-icons">
-            <img class="social-icon" src="./assets/icons/instagram.png" alt="social-icon" />
-            <img class="social-icon" src="./assets/icons/twitter.png" alt="social-icon" />
-            <img class="social-icon" src="./assets/icons/youtube.png" alt="social-icon" />
+            <img
+              class="social-icon"
+              src="./assets/icons/instagram.png"
+              alt="social-icon"
+            />
+            <img
+              class="social-icon"
+              src="./assets/icons/twitter.png"
+              alt="social-icon"
+            />
+            <img
+              class="social-icon"
+              src="./assets/icons/youtube.png"
+              alt="social-icon"
+            />
           </div>
         </div>
 
@@ -435,8 +450,8 @@
           <div class="footer-newsletter">
             <h3>Stay up to date</h3>
             <div class="input-wrapper">
-              <input type="text" placeholder="Your email address">
-              <img src="./assets/icons/send.png" alt="icon">
+              <input type="text" placeholder="Your email address" />
+              <img src="./assets/icons/send.png" alt="icon" />
             </div>
           </div>
         </div>
