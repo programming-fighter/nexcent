@@ -167,8 +167,9 @@
     font-size: 22px;
   }
 
-  .input-wrapper img {
-    right: 120px;
+  .input-wrapper {
+    max-width: 50%;
+    margin: auto;
     
   }
 }
@@ -298,8 +299,9 @@
     font-size: 22px;
   }
 
-  .input-wrapper img {
-    right: 120px;
+  .input-wrapper {
+    max-width: 50%;
+    margin: auto;
     
   }
 }

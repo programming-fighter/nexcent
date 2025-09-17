@@ -536,6 +536,7 @@ input{
   padding: 10px 15px;
   border-radius: 6px;
   border: none;
+  width: 100%;
 }
 
 input::placeholder{
