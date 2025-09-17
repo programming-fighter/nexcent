@@ -68,6 +68,8 @@ body {
   height: 20px;
 }
 
+/* hero section */
+
 .hero-img {
   width: 500px;
   height: 500px;
@@ -534,6 +536,7 @@ input{
   padding: 10px 15px;
   border-radius: 6px;
   border: none;
+  width: 100%;
 }
 
 input::placeholder{
